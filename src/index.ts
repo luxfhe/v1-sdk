@@ -131,7 +131,7 @@ export const MainnetConfig: FhevmInstanceConfig = {
   chainId: 1,
   gatewayChainId: 261131,
   network: 'https://ethereum-rpc.publicnode.com',
-  relayerUrl: 'https://relayer.mainnet.zama.org',
+  relayerUrl: 'https://relayer.mainnet.luxfhe.org',
 } as const;
 Object.freeze(MainnetConfig);
 
@@ -150,7 +150,7 @@ export const SepoliaConfig: FhevmInstanceConfig = {
   chainId: 11155111,
   gatewayChainId: 10901,
   network: 'https://ethereum-sepolia-rpc.publicnode.com',
-  relayerUrl: 'https://relayer.testnet.zama.org',
+  relayerUrl: 'https://relayer.testnet.luxfhe.org',
 } as const;
 Object.freeze(SepoliaConfig);
 

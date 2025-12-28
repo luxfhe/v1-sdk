@@ -26,7 +26,7 @@ import { safeJSONstringify } from '../../utils/string';
 // =======
 // npx jest --config jest.devnet.config.cjs --colors --passWithNoTests ./src/relayer-provider/v2/RelayerV2Provider_public-decrypt.test.ts --testNamePattern=xxx
 //
-// curl https://relayer.dev.zama.cloud/v2/public-decrypt/ab385343-ca64-4c58-beb0-bce684c856cf
+// curl https://relayer.dev.luxfhe.cloud/v2/public-decrypt/ab385343-ca64-4c58-beb0-bce684c856cf
 
 const ciphertextHandles: `0x${string}`[] = [
   '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef',

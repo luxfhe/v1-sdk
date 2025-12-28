@@ -43,8 +43,8 @@ export async function fetchRelayerV1Post(
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'ZAMA-SDK-VERSION': `${version}`,
-        'ZAMA-SDK-NAME': `${sdkName}`,
+        'luxfhe-SDK-VERSION': `${version}`,
+        'luxfhe-SDK-NAME': `${sdkName}`,
       },
       body: JSON.stringify(payload),
     } satisfies RequestInit,
@@ -86,8 +86,8 @@ export async function fetchRelayerV1Get(
   const init = {
     method: 'GET',
     headers: {
-      'ZAMA-SDK-VERSION': `${version}`,
-      'ZAMA-SDK-NAME': `${sdkName}`,
+      'luxfhe-SDK-VERSION': `${version}`,
+      'luxfhe-SDK-NAME': `${sdkName}`,
     },
   } satisfies RequestInit;
 

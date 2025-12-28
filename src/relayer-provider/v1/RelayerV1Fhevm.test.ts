@@ -18,7 +18,7 @@ import { TEST_CONFIG } from '../../test/config';
 // npx jest --colors --passWithNoTests --coverage ./src/relayer-provider/v1/RelayerV1Fhevm.test.ts --collectCoverageFrom=./src/relayer-provider/v1/RelayerV1Fhevm.ts --testNamePattern=xxx
 // npx jest --colors --passWithNoTests --coverage ./src/relayer-provider/v1/RelayerV1Fhevm.test.ts --collectCoverageFrom=./src/relayer-provider/v1/RelayerV1Fhevm.ts
 
-// curl https://relayer.testnet.zama.org/v1/keyurl
+// curl https://relayer.testnet.luxfhe.org/v1/keyurl
 const relayerV1ResponseGetKeyUrl = {
   response: {
     fhe_key_info: [
@@ -26,7 +26,7 @@ const relayerV1ResponseGetKeyUrl = {
         fhe_public_key: {
           data_id: 'fhe-public-key-data-id',
           urls: [
-            'https://zama-mpc-testnet-public-efd88e2b.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000003',
+            'https://luxfhe-mpc-testnet-public-efd88e2b.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000003',
           ],
         },
       },
@@ -35,7 +35,7 @@ const relayerV1ResponseGetKeyUrl = {
       '2048': {
         data_id: 'crs-data-id',
         urls: [
-          'https://zama-mpc-testnet-public-efd88e2b.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000004',
+          'https://luxfhe-mpc-testnet-public-efd88e2b.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000004',
         ],
       },
     },

@@ -79,14 +79,14 @@ export type RelayerPostOperation = Exclude<
   RelayerGetOperation
 >;
 
-// https://github.com/zama-ai/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/public_decrypt_http_listener.rs#L19
+// https://github.com/luxfhe.io/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/public_decrypt_http_listener.rs#L19
 export type RelayerPublicDecryptPayload = {
   ciphertextHandles: `0x${string}`[];
   // Hex encoded bytes with 0x prefix. Default: 0x00
   extraData: `0x${string}`;
 };
 
-// https://github.com/zama-ai/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/input_http_listener.rs#L17
+// https://github.com/luxfhe.io/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/input_http_listener.rs#L17
 export type RelayerInputProofPayload = {
   // Hex encoded uint256 string without prefix
   contractChainId: `0x${string}`;
@@ -100,7 +100,7 @@ export type RelayerInputProofPayload = {
   extraData: `0x${string}`;
 };
 
-// https://github.com/zama-ai/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/userdecrypt_http_listener.rs#L33
+// https://github.com/luxfhe.io/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/userdecrypt_http_listener.rs#L33
 export type HandleContractPairRelayer = {
   // Hex encoded bytes32 with 0x prefix.
   handle: `0x${string}`;
@@ -108,7 +108,7 @@ export type HandleContractPairRelayer = {
   contractAddress: `0x${string}`;
 };
 
-// https://github.com/zama-ai/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/userdecrypt_http_listener.rs#L20
+// https://github.com/luxfhe.io/fhevm-relayer/blob/96151ef300f787658c5fbaf1b4471263160032d5/src/http/userdecrypt_http_listener.rs#L20
 export type RelayerUserDecryptPayload = {
   handleContractPairs: HandleContractPairRelayer[];
   requestValidity: {

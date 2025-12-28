@@ -1,12 +1,12 @@
 # Setup
 
-The use of `@zama-fhe/relayer-sdk` requires a setup phase.
+The use of `@luxfhe-fhe/relayer-sdk` requires a setup phase.
 This consists of the instantiation of the `FhevmInstance`.
 This object holds all the configuration and methods needed to interact with an FHEVM using a Relayer.
 It can be created using the following code snippet:
 
 ```ts
-import { createInstance } from '@zama-fhe/relayer-sdk';
+import { createInstance } from '@luxfhe-fhe/relayer-sdk';
 
 const instance = await createInstance({
   // ACL_CONTRACT_ADDRESS (FHEVM Host chain)
@@ -28,22 +28,22 @@ const instance = await createInstance({
   // Optional RPC provider to host chain
   network: 'https://eth-sepolia.public.blastapi.io',
   // Relayer URL
-  relayerUrl: 'https://relayer.testnet.zama.org',
+  relayerUrl: 'https://relayer.testnet.luxfhe.org',
 });
 ```
 
 or the even simpler:
 
 ```ts
-import { createInstance, SepoliaConfig } from '@zama-fhe/relayer-sdk';
+import { createInstance, SepoliaConfig } from '@luxfhe-fhe/relayer-sdk';
 
 const instance = await createInstance(SepoliaConfig);
 ```
 
-The information regarding the configuration of Sepolia's FHEVM and associated Relayer maintained by Zama can be found in the `SepoliaConfig` object or in the [contract addresses page](https://docs.zama.ai/protocol/solidity-guides/smart-contract/configure/contract_addresses).
+The information regarding the configuration of Sepolia's FHEVM and associated Relayer maintained by LuxFHE can be found in the `SepoliaConfig` object or in the [contract addresses page](https://docs.luxfhe.io/protocol/solidity-guides/smart-contract/configure/contract_addresses).
 The `gatewayChainId` is `10901`.
 The `chainId` is the chain-id of the FHEVM chain, so for Sepolia it would be `11155111`.
 
 {% hint style="info" %}
-For more information on the Relayer's part in the overall architecture please refer to [the Relayer's page in the architecture documentation](https://docs.zama.ai/protocol/protocol/overview/relayer_oracle).
+For more information on the Relayer's part in the overall architecture please refer to [the Relayer's page in the architecture documentation](https://docs.luxfhe.io/protocol/protocol/overview/relayer_oracle).
 {% endhint %}

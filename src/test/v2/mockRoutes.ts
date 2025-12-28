@@ -24,7 +24,7 @@ export const RUNNING_REQ_STATE: RelayerV2AsyncRequestState = {
   timeout: false,
 } as const;
 
-// curl https://relayer.dev.zama.cloud/v2/keyurl
+// curl https://relayer.dev.luxfhe.cloud/v2/keyurl
 export const relayerV2ResponseGetKeyUrl = {
   status: 'succeeded',
   response: {
@@ -33,7 +33,7 @@ export const relayerV2ResponseGetKeyUrl = {
         fhePublicKey: {
           dataId: 'fhe-public-key-data-id',
           urls: [
-            'https://zama-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000001',
+            'https://luxfhe-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000001',
           ],
         },
       },
@@ -42,7 +42,7 @@ export const relayerV2ResponseGetKeyUrl = {
       '2048': {
         dataId: 'crs-data-id',
         urls: [
-          'https://zama-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000001',
+          'https://luxfhe-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000001',
         ],
       },
     },

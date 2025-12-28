@@ -59,7 +59,7 @@ describeIfFetchMock('userDecrypt', () => {
       '0x8ba1f109551bd432803012645ac136ddd64dba72',
       '0xa5e1defb98EFe38EBb2D958CEe052410247F4c80',
       relayerProvider,
-      new ethers.JsonRpcProvider('https://devnet.zama.ai'),
+      new ethers.JsonRpcProvider('https://devnet.luxfhe.io'),
     );
   });
 });

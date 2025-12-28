@@ -45,7 +45,7 @@ resolve: {
 
 **Possible solutions:**
 
-- If you encounter issues with typing, you can use the tsconfig.json using TypeScript 5 located in the [fhevm-react-template](https://github.com/zama-ai/fhevm-react-template) repository.
+- If you encounter issues with typing, you can use the tsconfig.json using TypeScript 5 located in the [fhevm-react-template](https://github.com/luxfhe.io/fhevm-react-template) repository.
 - If you encounter any other issue, you can force import of the browser package.
 
 ## Use bundled version
@@ -54,7 +54,7 @@ resolve: {
 
 **Cause:** The library may not bundle correctly with certain frameworks, leading to errors during the build or runtime process.
 
-**Possible solutions:** Use the [prebundled version available](./webapp.md) with `@zama-fhe/relayer-sdk/bundle`. Embed the library with a `<script>` tag and initialize it as shown below:
+**Possible solutions:** Use the [prebundled version available](./webapp.md) with `@luxfhe-fhe/relayer-sdk/bundle`. Embed the library with a `<script>` tag and initialize it as shown below:
 
 ```javascript
 const start = async () => {

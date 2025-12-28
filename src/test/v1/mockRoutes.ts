@@ -10,7 +10,7 @@ import {
 } from '../../constants';
 import { EncryptionBits } from '../../types/primitives';
 
-// curl https://relayer.dev.zama.cloud/v1/keyurl
+// curl https://relayer.dev.luxfhe.cloud/v1/keyurl
 export const relayerV1ResponseGetKeyUrl = {
   response: {
     fhe_key_info: [
@@ -18,7 +18,7 @@ export const relayerV1ResponseGetKeyUrl = {
         fhe_public_key: {
           data_id: 'fhe-public-key-data-id',
           urls: [
-            'https://zama-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000001',
+            'https://luxfhe-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/PublicKey/0400000000000000000000000000000000000000000000000000000000000001',
           ],
         },
       },
@@ -27,7 +27,7 @@ export const relayerV1ResponseGetKeyUrl = {
       '2048': {
         data_id: 'crs-data-id',
         urls: [
-          'https://zama-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000001',
+          'https://luxfhe-zws-dev-tkms-b6q87.s3.eu-west-1.amazonaws.com/PUB-p1/CRS/0500000000000000000000000000000000000000000000000000000000000001',
         ],
       },
     },

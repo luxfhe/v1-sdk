@@ -1023,8 +1023,8 @@ export class RelayerV2AsyncRequest {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'ZAMA-SDK-VERSION': `${version}`,
-          'ZAMA-SDK-NAME': `${sdkName}`,
+          'luxfhe-SDK-VERSION': `${version}`,
+          'luxfhe-SDK-NAME': `${sdkName}`,
         },
         body: JSON.stringify(this._payload),
         ...(this._internalAbortSignal
@@ -1091,8 +1091,8 @@ export class RelayerV2AsyncRequest {
     const init: RequestInit = {
       method: 'GET',
       headers: {
-        'ZAMA-SDK-VERSION': `${version}`,
-        'ZAMA-SDK-NAME': `${sdkName}`,
+        'luxfhe-SDK-VERSION': `${version}`,
+        'luxfhe-SDK-NAME': `${sdkName}`,
       },
       ...(this._internalAbortSignal
         ? { signal: this._internalAbortSignal }

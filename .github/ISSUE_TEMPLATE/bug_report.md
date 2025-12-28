@@ -28,8 +28,8 @@ Fill in the relevant environment details where the issue was observed:
 - **Package Manager**: [npm, yarn, pnpm]
 - **Network Configuration**:
   - **Chain ID**: [e.g., `9000`]
-  - **RPC URL**: [e.g., `https://devnet.zama.ai`]
-  - **Relayer URL**: [e.g., `https://relayer.devnet.zama.ai`]
+  - **RPC URL**: [e.g., `https://devnet.luxfhe.io`]
+  - **Relayer URL**: [e.g., `https://relayer.devnet.luxfhe.io`]
 
 ### **Steps Taken to Debug**
 

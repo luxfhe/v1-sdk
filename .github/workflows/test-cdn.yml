@@ -45,7 +45,7 @@ jobs:
       - name: Build package
         env:
           PACKAGE_VERSION: ${{ steps.package-version.outputs.version }}
-        run: BASE_PATH=https://cdn.zama.org/relayer-sdk-js/${PACKAGE_VERSION}/ npm run build
+        run: BASE_PATH=https://cdn.luxfhe.org/relayer-sdk-js/${PACKAGE_VERSION}/ npm run build
 
       - name: Archive bundle
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

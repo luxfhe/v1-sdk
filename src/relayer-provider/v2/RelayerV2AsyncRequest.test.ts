@@ -17,7 +17,7 @@ import { RelayerInputProofPayload } from '../../types/relayer';
 
 const SepoliaConfigeRelayerUrl = SepoliaConfig.relayerUrl!;
 const requestUrl = `${SepoliaConfigeRelayerUrl}/v2/input-proof`;
-//https://relayer.testnet.zama.org/v2/input-proof
+//https://relayer.testnet.luxfhe.org/v2/input-proof
 const contractAddress = '0x8ba1f109551bd432803012645ac136ddd64dba72';
 const userAddress = '0xa5e1defb98EFe38EBb2D958CEe052410247F4c80';
 const ciphertextWithInputVerification = '0xdeadbeef';
