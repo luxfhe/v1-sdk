@@ -6,7 +6,7 @@ import {
   ml_kem_pke_sk_to_u8vec,
   u8vec_to_ml_kem_pke_pk,
   u8vec_to_ml_kem_pke_sk,
-} from 'node-tkms';
+} from '@luxfhe/kms/node';
 
 const describeIfFetchMock =
   TEST_CONFIG.type === 'fetch-mock' ? describe : describe.skip;

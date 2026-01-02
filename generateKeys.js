@@ -9,7 +9,7 @@ import {
   CompactPkeCrs,
   ShortintCompactPublicKeyEncryptionParameters,
   ShortintCompactPublicKeyEncryptionParametersName,
-} from 'node-tfhe';
+} from '@luxfhe/wasm/node';
 
 import fs from 'fs';
 

@@ -1,4 +1,4 @@
-import { CompactPkeCrs, TfheClientKey, TfheCompactPublicKey } from 'node-tfhe';
+import { CompactPkeCrs, TfheClientKey, TfheCompactPublicKey } from '@luxfhe/wasm/node';
 import fs from 'fs';
 import {
   SERIALIZED_SIZE_LIMIT_CRS,

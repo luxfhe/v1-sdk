@@ -6,7 +6,7 @@ import initTFHE, {
   CompactPkeCrs,
   CompactCiphertextList,
   ZkComputeLoad,
-} from 'tfhe';
+} from '@luxfhe/wasm';
 import {
   default as initTKMS,
   u8vec_to_ml_kem_pke_pk,
@@ -18,7 +18,7 @@ import {
   ml_kem_pke_pk_to_u8vec,
   ml_kem_pke_sk_to_u8vec,
   ml_kem_pke_get_pk,
-} from 'tkms';
+} from '@luxfhe/kms';
 
 window.TFHE = {
   default: initTFHE,
@@ -42,8 +42,8 @@ window.TKMS = {
   ml_kem_pke_get_pk,
 };
 
-export { InitInput as TFHEInput } from 'tfhe';
-export { InitInput as KMSInput } from 'tkms';
+export { InitInput as TFHEInput } from '@luxfhe/wasm';
+export { InitInput as KMSInput } from '@luxfhe/kms';
 
 export type { TFHEType } from './tfheType';
 

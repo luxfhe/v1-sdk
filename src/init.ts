@@ -2,9 +2,9 @@ import initTFHE, {
   init_panic_hook,
   initThreadPool,
   InitInput as TFHEInput,
-} from 'tfhe';
+} from '@luxfhe/wasm';
 
-import initKMS, { InitInput as KMSInput } from 'tkms';
+import initKMS, { InitInput as KMSInput } from '@luxfhe/kms';
 // import wasmKMS from 'tkms/kms_lib_bg.wasm';
 import { threads } from 'wasm-feature-detect';
 

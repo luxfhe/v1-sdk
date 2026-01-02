@@ -107,8 +107,8 @@ class PrivateEncKeyMlKem512Mock {
 }
 
 /*
-import * as TFHEPkg from 'node-tfhe';
-import * as TKMSPkg from 'node-tkms';
+import * as TFHEPkg from '@luxfhe/wasm/node';
+import * as TKMSPkg from '@luxfhe/kms/node';
 
 global.TFHE = TFHEPkg;
 global.TKMS = TKMSPkg;

@@ -7,7 +7,7 @@ import {
   CompactPkeCrs,
   ShortintCompactPublicKeyEncryptionParameters,
   ShortintCompactPublicKeyEncryptionParametersName,
-} from 'node-tfhe';
+} from '@luxfhe/wasm/node';
 import { bytesToHexNo0x } from './utils/bytes';
 
 export const createTfheKeypair = () => {
