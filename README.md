@@ -40,7 +40,7 @@ This will download and install the fhevm Relayer SDK and its dependencies into y
 There are two ways to contribute to the Relayer SDK:
 
 - you can open issues to report bugs or typos, or to suggest new ideas
-- you can ask to become an official contributor by emailing hello@luxfhe.io. (becoming an approved contributor involves signing our Contributor License Agreement (CLA))
+- you can ask to become an official contributor by emailing fhe@lux.network. (becoming an approved contributor involves signing our Contributor License Agreement (CLA))
   Only approved contributors can send pull requests, so please make sure to get in touch before you do!
 
 ## Credits
@@ -56,4 +56,4 @@ This library uses several dependencies and we would like to thank the contributo
 ## License
 
 This software is distributed under the BSD-3-Clause-Clear license. If you have any questions,
-please contact us at `hello@luxfhe.io`.
+please contact us at `fhe@lux.network`.
